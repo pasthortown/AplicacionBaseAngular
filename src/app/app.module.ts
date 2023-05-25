@@ -9,10 +9,16 @@ import { NgxSpinnerModule } from "ngx-spinner";
 import { ToastrModule } from 'ngx-toastr';
 import { NgChartsModule } from 'ng2-charts';
 import { NgxFileDropModule } from 'ngx-file-drop';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { BodyComponent } from './components/body/body.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    SidebarComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
